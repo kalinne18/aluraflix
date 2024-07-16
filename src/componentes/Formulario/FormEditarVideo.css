@@ -1,0 +1,66 @@
+.form-editarVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.form-editarVideo h1 {
+    font-size: 36px;
+    color: #2271d1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-editarVideo form {
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(3, 18, 47, 0.9); 
+    border-radius: 12px;
+    border: 3px solid #6BD1FF;
+    padding: 36px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative; 
+}
+
+.form-editarVideo textarea{
+    width: 95%;
+    background-color: #03122f;
+    border-radius: 12px;
+    border: 3px solid #2271d1;
+    color: #a5a5a5;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+
+.form-editarVideo input {
+    width: 100%;    
+    border-radius: 12px;
+    border: 3px solid #2271d1;
+    color: #a5a5a5;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 16px;
+    height: 40px;
+    
+}
+
+.close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #6BD1FF;
+    font-size: 24px;
+    cursor: pointer;
+}

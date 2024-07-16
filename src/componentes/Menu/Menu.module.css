@@ -1,0 +1,47 @@
+.Logo {
+    max-width: 168px;
+}
+
+/* @media (max-width: 800px) {
+    .Logo {
+        max-width: 105px;
+    }
+} */
+
+.menu {
+    width: 90%;
+    height: 100px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #262626;
+    border-bottom: 3px solid #2A7AE4;
+    box-shadow:  #2271d1 0 0px 15px 5px;
+}
+
+
+/* @media (max-width: 800px) {
+    .Menu {
+        height: 40px;
+        justify-content: center;
+    }
+    body {
+        --bodyPaddingTop: 40px;
+        padding-top: var(--bodyPaddingTop);
+    }
+} */
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+

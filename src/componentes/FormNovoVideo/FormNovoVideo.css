@@ -1,0 +1,77 @@
+.form-NovoVideo {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #191919;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-NovoVideo h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-NovoVideo p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.form-NovoVideo h2 {   
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 36px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #191919;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.campo-texto-nv {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-texto label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo-texto input{
+    padding: 10px;    
+    border-radius: 8px;
+    background-color: #191919;
+    color: #a5a5a5;
+    font-size: 20px;
+}
+
+
+.campo-texto-nv textarea {
+    padding: 10px;
+    border: 1px solid #a5a5a5;
+    border-radius: 8px;
+    background-color: #191919;
+    color: #a5a5a5;
+    font-size: 20px;
+}
+
+.campo-texto-nv textarea {
+    height: 100px;
+    background-color: #191919;
+    resize: none;
+}
+
+
+

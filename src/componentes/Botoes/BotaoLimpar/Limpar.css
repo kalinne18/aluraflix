@@ -1,0 +1,20 @@
+.btn-limpar {
+    background-color: #191919;
+    color: #ffffff;
+    border: 3px solid #f5f5f5;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 181px;
+    height: 54px;    
+    font-size: 20px;
+    font-weight: 700;    
+    border-radius: 10px;
+    text-decoration: none;   
+    text-transform: uppercase;
+}
+
+.btn-limpar:hover {
+    color: #2271d1;
+    background-color: #ffffff;
+    cursor: pointer;
+}
