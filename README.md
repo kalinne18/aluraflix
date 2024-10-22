@@ -1,3 +1,18 @@
+# Aluraflix
+
+Este projeto é o desafio React, que envolve a criação de um aplicativo da web que funciona como repositório de vídeos da Alura, onde serão classificados por categorias.
+
+## Principais funcionalidades:
+- Editar informações de vídeo.
+- Excluir vídeos.
+- Adicionar novos vídeos.
+
+## Tecnologias utilizadas no projeto:
+Reagir
+HTML5
+CSS3
+JavaScript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
